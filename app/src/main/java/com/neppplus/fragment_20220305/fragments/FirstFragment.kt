@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.neppplus.fragment_20220305.R
 
-class Fragment : Fragment() {
+class FirstFragment : Fragment() {
 
 //    fragment_first xml파일을 모양으로 삼자
 
