@@ -17,7 +17,13 @@
         android:tag="아무말2"
         class="com.neppplus.fragment_20220305.fragments.SecondFragment"
         android:layout_width="match_parent"
-        android:layout_height="350dp"/>
+        android:layout_height="250dp"/>
+
+    <fragment
+        android:tag="아무말3"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        class="com.neppplus.fragment_20220305.fragments.FirstFragment"/>
 
 
 </LinearLayout>
