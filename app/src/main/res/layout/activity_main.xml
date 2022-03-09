@@ -7,23 +7,35 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <fragment
-        android:tag="아무말"
-        class="com.neppplus.fragment_20220305.fragments.FirstFragment"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="250dp"/>
+        android:layout_height="match_parent">
 
-    <fragment
-        android:tag="아무말2"
-        class="com.neppplus.fragment_20220305.fragments.SecondFragment"
-        android:layout_width="match_parent"
-        android:layout_height="250dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <fragment
-        android:tag="아무말3"
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        class="com.neppplus.fragment_20220305.fragments.FirstFragment"/>
+            <fragment
+                android:tag="아무말"
+                class="com.neppplus.fragment_20220305.fragments.FirstFragment"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
 
+            <fragment
+                android:tag="아무말2"
+                class="com.neppplus.fragment_20220305.fragments.SecondFragment"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+
+            <fragment
+                android:tag="아무말3"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                class="com.neppplus.fragment_20220305.fragments.FirstFragment"/>
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>
